@@ -111,4 +111,4 @@ switch (prospecto.toLowerCase()) {
     alert("Gracias Admin por terminar el programa")
 }
 
-
+//------------------AGREGAR FUNCIONES-------------------
