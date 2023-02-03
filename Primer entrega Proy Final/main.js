@@ -6,6 +6,7 @@ let nServicio = "";
 let nServicio1 = "";
 //---------Bienvenida---------------------------------
 
+function programaCompleto() {   
 while (nombre == "") {
     alert("Por favor coloca tu nombre, de esa manera vamos a poder orientarte mejor a futuro");
     nombre = prompt("Por favor indicanos tu nombre");
@@ -110,5 +111,6 @@ switch (prospecto.toLowerCase()) {
 }else {
     alert("Gracias Admin por terminar el programa")
 }
+}
 
-//------------------AGREGAR FUNCIONES-------------------
+programaCompleto()
