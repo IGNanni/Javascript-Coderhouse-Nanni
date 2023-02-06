@@ -82,5 +82,6 @@ const transformado = usuarios.map(usuario => {
 // console.log(transformado);
 
 usuarios.forEach(element => {
-    console.log(element.edad)
+    console.log(`${element.nombre} ---- ${element.edad} años`)
 });
+
