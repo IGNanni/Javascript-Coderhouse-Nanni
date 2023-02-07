@@ -98,16 +98,16 @@
 
 //-----------Arreglos con Objetos-----------
 
-// const productos = [
-//     {id: 1, nombre: "pantalon" , precio: 1000 },
-//     {id: 2, nombre: "camisa" , precio: 500},
-//     {id: 3, nombre: "zapato" , precio: 700},
-//     {id: 4, nombre: "gorra" , precio: 1750},
-// ];
+const productos = [
+    {id: 1, nombre: "pantalon" , precio: 1000 },
+    {id: 2, nombre: "camisa" , precio: 500},
+    {id: 3, nombre: "zapato" , precio: 700},
+    {id: 4, nombre: "gorra" , precio: 1750},
+];
 
-// for (index = 0 ; index < productos.length ; index++){
-//     const elemento = productos[index];
-//     console.log(elemento.precio)
-// }
+for (index = 0 ; index < productos.length ; index++){
+    const elemento = productos[index];
+    console.log(`${elemento.nombre}-------$ ${elemento.precio}`)
+}
 
 //--------------------------------------------------

@@ -1,8 +1,8 @@
 const servicios = [
-    { id: 1, nombre: "Primer Service", precio: 5000 },
-    { id: 2, nombre: "Segundo Service", precio: 8000 },
-    { id: 3, nombre: "Service Completo", precio: 10000 },
-    { id: 4, nombre: "revision", precio: 5000 },
+    { id: 1, nombre: "Primer Service", precio: 5000, comprado: 0 },
+    { id: 2, nombre: "Segundo Service", precio: 8000, comprado: 0 },
+    { id: 3, nombre: "Service Completo", precio: 10000, comprado: 0 },
+    { id: 4, nombre: "revision", precio: 5000, comprado: 0 },
 ];
 
 function saludar() {
@@ -14,29 +14,31 @@ function saludar() {
     alert(`Hola ${quien} bienvenido a nuestro taller`);
 };
 
-function mostrarItems() {
-    for (let index = 0; index < servicios.length; index++) {
+function listado (){
+    for (index = 0 ; index < servicios.length ; index++){
         const elemento = servicios[index];
-        alert(elemento.nombre);
-    };
-    
+        alert(`${elemento.nombre}}--------$ ${elemento.precio}`);
+    }
 }
+
 
 function pedido() {
     let pregunta = prompt("Queres conocer nuestros productos?");
-    while ((pregunta.toLowerCase() != "si") && (pregunta.toLowerCase() != "no")){
+    while ((pregunta.toLowerCase() != "si") && (pregunta.toLowerCase() != "no")) {
         alert("Por favor indicanos con SI o NO");
         pregunta = prompt("Queres conocer nuestros productos?");
     }
-    if(pregunta.toLowerCase() == "si") {
-            mostrarItems(servicios);
-    }else if (pregunta.toLowerCase() == "no"){
-            alert(`Muchas gracias por tu visita`);
+    if (pregunta.toLowerCase() == "si") {
+        listado();
+    } else if (pregunta.toLowerCase() == "no") {
+        alert(`Muchas gracias por tu visita`);
     }
 }
 
 
 
-saludar();
-pedido();
+// saludar();
+// pedido();
+
+listado();
 
