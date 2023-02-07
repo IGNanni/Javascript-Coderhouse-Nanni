@@ -17,7 +17,7 @@ function saludar() {
 function listado (){
     for (index = 0 ; index < servicios.length ; index++){
         const elemento = servicios[index];
-        alert(`${elemento.nombre}}--------$ ${elemento.precio}`);
+        alert(`${elemento.nombre}--------$ ${elemento.precio}`);
     }
 }
 
