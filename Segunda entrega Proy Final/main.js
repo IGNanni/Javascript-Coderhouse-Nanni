@@ -37,6 +37,10 @@ function mensajeListado(n, p) {
 
 function filtrado() {
     let precioFiltro = parseInt(prompt("Ingrese el monto maximo a gastar"));
+    while (precioFiltro < 2000) {
+        alert("No tenemos servicios por menos de $2000, por favor seguí juntando dinero");
+        precioFiltro = parseInt(prompt("Ingrese el monto maximo a gastar"));       
+    }
     let filtrados = servicios.filter((item) => item.precio <= precioFiltro);
     let mensajeFiltrado = "";
 
