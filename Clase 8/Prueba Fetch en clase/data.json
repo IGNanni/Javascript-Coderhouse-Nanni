@@ -1,0 +1,8 @@
+[
+    { "id": 1, "nombre": "Primer Service", "precio": 5000, "comprado": 0 },
+    { "id": 2, "nombre": "Segundo Service", "precio": 8000, "comprado": 0 },
+    { "id": 3, "nombre": "Service Completo", "precio": 10000, "comprado": 0 },
+    { "id": 4, "nombre": "revision", "precio": 5000, "comprado": 0 },
+    { "id": 5, "nombre": "revision chasis", "precio": 2000, "comprado": 0 },
+    { "id": 5, "nombre": "Un nuevo servicio", "precio": 50000, "comprado": 0 }
+]

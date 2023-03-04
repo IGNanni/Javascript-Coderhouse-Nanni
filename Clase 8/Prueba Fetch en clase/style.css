@@ -1,0 +1,23 @@
+.card {
+    border-radius: 10;
+    background-color: black;
+    color: white;
+    width: 20vw;
+    display: flex;
+    align-items:center;
+    margin: 15px;
+    padding: 10px;    
+
+}
+
+.card h3{
+    height: 50%;
+}
+
+.ERROR{
+    font-size: 80px;
+    font-weight: 800;
+    text-shadow: 2px 2px #e00202;
+    text-align: center;
+}
+
