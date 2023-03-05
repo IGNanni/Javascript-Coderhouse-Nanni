@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taller JJSM-Motorsport</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <h1><span>JJSM</span>-Motorsport</h1>
+      <img src="./Imagenes/logo.png" alt="logo">
+    </div>
+  </header>
+  <div class="nombre">
+    <div id="pregunta">
+      <input type="text" placeholder="Por favor indicanos tu nombre" id="nombre" value="ivan"/> 
+      <button id="comenzar">Comenzar!</button>
+    </div>
+    <div id="contenedorRespuesta">
+      <h4 id="respuesta"></h4>
+      <button id="salir">salir session</button>   
+    </div>
+  </div>
+  <div class="container">
+    
+    <div id="servicios" class="section">
+      <div class="content">
+        <h2>Servicios</h2>
+        <ul id="listadoServicios"></ul>
+        <!-- <input type="number" value="5000" id="filtro">
+        <button id="filtrador">Filtrar</button> -->
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+    
+  </div>
+  <footer>
+    <p>&#169 Nanni 2022</p>
+    <p>Peiping 5100</p>
+  </footer>
+  <script src="./servicios.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
